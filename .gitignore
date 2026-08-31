@@ -1,0 +1,21 @@
+# Built outputs
+*.apk
+*.aab
+build/
+.gradle/
+local.properties
+keystore.properties
+keystore/*.jks
+keystore/*.keystore
+
+# IDE
+.idea/
+*.iml
+.DS_Store
+
+# Logs & temp
+*.log
+*.txt.bak
+reference/
+Driver/
+release-apk/
