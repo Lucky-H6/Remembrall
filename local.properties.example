@@ -5,6 +5,6 @@
 sdk.dir=/path/to/Android/Sdk
 
 # AMap (Gaode) Android SDK key — apply at https://lbs.amap.com/
-# bound to package com.memoryball.app + your signing SHA1.
+# bound to package com.remembrall.app + your signing SHA1.
 # Leave blank to build & run; the map screen falls back to manual coordinate input.
 AMAP_KEY=

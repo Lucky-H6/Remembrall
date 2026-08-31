@@ -14,15 +14,15 @@ val localProps = Properties().apply {
 val amapKey: String = (localProps.getProperty("AMAP_KEY") ?: "").trim()
 
 android {
-    namespace = "com.memoryball.app"
+    namespace = "com.remembrall.app"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.memoryball.app"
+        applicationId = "com.remembrall.app"
         minSdk = 26
         targetSdk = 34
-        versionCode = 12
-        versionName = "1.0.11"
+        versionCode = 13
+        versionName = "1.1.0"
 
         // Expose the AMap key to both the manifest placeholder and BuildConfig
         manifestPlaceholders["AMAP_KEY"] = amapKey

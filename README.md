@@ -1,4 +1,4 @@
-# 记忆球 (MemoryBall)
+# 记忆球 (Remembrall)
 
 一款基于「时间 + 地点」的智能提醒 Android App：不仅能在指定时间提醒你，还能在你到达或离开某个地方时提醒你。所有数据保存在本地，开源、免费、无广告。
 
@@ -27,9 +27,9 @@
 ## 项目结构
 
 ```
-app/src/main/java/com/memoryball/app/
+app/src/main/java/com/remembrall/app/
 ├── MainActivity.kt              # 入口 + 导航 + 权限申请
-├── MemoryBallApp.kt             # Application 初始化
+├── RemembrallApp.kt             # Application 初始化
 ├── data/
 │   ├── model/                   # Reminder, Place 实体
 │   ├── db/                      # Room DAO + Database

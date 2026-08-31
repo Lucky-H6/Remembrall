@@ -1,4 +1,4 @@
-pluginManagement {
+﻿pluginManagement {
     repositories {
         // Aliyun mirrors first for China network; fall back to official.
         maven { url = uri("https://maven.aliyun.com/repository/gradle-plugin") }
@@ -19,5 +19,5 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
-rootProject.name = "MemoryBall"
+rootProject.name = "Remembrall"
 include(":app")
